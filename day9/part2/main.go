@@ -261,7 +261,7 @@ func fillPolygon(grid [][]int) {
 	// -1 = outside
 	// 0 = inside
 	// 1 = boundary
-	// In final representation, clean up with 1 on side and 0 on outside
+	// In final representation, clean up with 1 on inside and 0 on outside
 	for x := 0; x < W; x++ {
 		for y := 0; y < H; y++ {
 			switch grid[x][y] {
